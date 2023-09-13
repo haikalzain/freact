@@ -1,0 +1,1 @@
+(()=>{"use strict";function n(n,e,o){return function(n,e,o){return{type:n,props:e,children:o}}(n,e,o)}console.log((()=>n("div",null,n("h1",null,"Hello world")))),function n(e,o){if("string"==typeof e.type){const t=document.createElement(e.type);if(o.appendChild(t),void 0!==children)for(let e of children)n(t,e)}}(n("h1",null,"oi"),document.body)})();
